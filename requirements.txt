@@ -11,3 +11,7 @@ pandas_datareader>=0.8.1
 itsdangerous>=1.1.0
 Jinja2>=2.10.1
 MarkupSafe>=1.1.1
+tensorflow-hub>=0.6.0
+tensorflow-model-optimization>=0.2.1
+tensorflow-datasets
+tensorflow-addons
