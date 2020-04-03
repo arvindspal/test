@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from test import Test
+import test
 
 app = Flask(__name__)
 
@@ -11,8 +11,8 @@ def home():
 
 @app.route("/predict")
 def predict():
-    test = Test()
-    predictedvalue = test.predict()
+    test1 = test.Test()
+    predictedvalue = test1.predict()
     return predictedvalue
 
 if __name__ == '__main__':
