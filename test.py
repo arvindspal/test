@@ -1,4 +1,4 @@
-#from .makeprediction import makePrediction
+import makeprediction
 
 class Test():
     def __init__(self):
