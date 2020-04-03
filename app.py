@@ -9,6 +9,12 @@ def home():
     #return render_template('index.html')
     return '<h1>hello ooooo utyuiuytyu 123456 </h1>'
 
+@app.route("/predict")
+def predict():
+    test = Test()
+    predictedvalue = test.predict()
+    return predictedvalue
+
 if __name__ == '__main__':
 	#app.run(debug=True)
     app.run(host='0.0.0.0', port=5000)
