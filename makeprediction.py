@@ -63,6 +63,10 @@ class makePrediction():
         predicted_price = self.scaler.inverse_transform(predicted_price)
                                        
         return predicted_price
+    
+    def arvind(self):
+        ## make predictions..
+        return 12340001
 
 
 
