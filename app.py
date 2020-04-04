@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-
+import test
 app = Flask(__name__)
 
 
@@ -12,7 +12,7 @@ def home():
 def predict():
     #test = Test()
     #predictedvalue = test.predict()
-    return 10024
+    return '10024'
 
 
 if __name__ == '__main__':
