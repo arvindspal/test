@@ -11,5 +11,5 @@ class Test:
         classObj.get_test_data(df2)
         classObj.load_model()
         pred = classObj.make_prediction()
-        return pred
+        return pred[0][0]
         
