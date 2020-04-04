@@ -13,7 +13,7 @@ from keras.layers import Dropout
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
-class makePrediction():
+class makePrediction:
     
     def __init__(self):
         self.today = dt.date.today()
