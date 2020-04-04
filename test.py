@@ -1,6 +1,6 @@
-import makeprediction
+#import makeprediction
 
-class Test():
+class Test:
     def __init__(self):
         self.name = 'test'
         
